@@ -26,6 +26,8 @@ set expandtab
 
 nmap <C-p> <cmd>Telescope find_files<cr>
 
+nmap tt <cmd>ToggleTerm<cr>
+
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: There's always complete item selected by default, you may want to enable
 " no select by `"suggest.noselect": true` in your configuration file.
