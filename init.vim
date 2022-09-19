@@ -19,3 +19,5 @@ set nu
 set shiftwidth=4
 set autoindent
 set expandtab
+
+nmap <C-p> <cmd>Telescope find_files<cr>
