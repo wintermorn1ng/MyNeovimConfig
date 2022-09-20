@@ -23,6 +23,8 @@ set nu
 set shiftwidth=4
 set autoindent
 set expandtab
+set nofixendofline
+set nowrap
 
 nmap <C-p> <cmd>Telescope find_files<cr>
 
@@ -74,5 +76,3 @@ nmap <leader>qf  <Plug>(coc-fix-current)
 
 " Search workspace symbols.
 nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
-
-set nofixendofline
