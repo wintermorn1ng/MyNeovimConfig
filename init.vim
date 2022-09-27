@@ -41,6 +41,8 @@ set nofixendofline
 set nowrap
 
 nmap <C-p> <cmd>Telescope find_files<cr>
+nmap ff <cmd>Telescope current_buffer_fuzzy_find<cr>
+nmap FF <cmd>Telescope live_grep<cr>
 
 nmap tt <cmd>ToggleTerm<cr>
 
